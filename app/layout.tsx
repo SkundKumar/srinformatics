@@ -12,7 +12,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SRInformatics | Innovative Tech Solutions",
   description: "SRInformatics is a leading tech agency providing innovative solutions for businesses of all sizes.",
-    generator: 'v0.dev'
+    icons: {
+      icon: "/WhatsApp Image 2025-05-15 at 14.19.14_631e2f8e.jpg",
+    },
 }
 
 export default function RootLayout({

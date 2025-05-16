@@ -50,7 +50,7 @@ export default function ProjectsPage() {
                 >
                   <div className="relative h-[250px] w-full rounded-t-xl overflow-hidden">
                     <Image
-                      src={project.image || "/placeholder.svg"}
+                      src={project.image || "/northpark.png"}
                       alt={project.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -73,10 +73,10 @@ export default function ProjectsPage() {
                     <h3 className="text-xl font-bold mb-2 text-gray-900">{project.title}</h3>
                     <p className="text-gray-600 mb-4">{project.description}</p>
                     <Link
-                      href={`/projects/${project.slug}`}
+                      href={`${project.slug}`}
                       className="text-primary font-medium inline-flex items-center hover:underline"
                     >
-                      View Case Study{" "}
+                      Visit Site{" "}
                       <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Link>
                   </div>
@@ -176,8 +176,8 @@ const projects = [
   {
     title: "Restaurant Website",
     description: "A modern, responsive website for a local restaurant with online ordering capabilities.",
-    image: "/placeholder.svg?height=250&width=400",
-    slug: "restaurant-website",
+    image: "/northpark.png",
+    slug: "https://northparkgrp.com/",
     tags: ["Web Development", "UI/UX"],
   },
   {
@@ -190,8 +190,8 @@ const projects = [
   {
     title: "Conference Website",
     description: "Website and digital marketing campaign for a major industry conference.",
-    image: "/placeholder.svg?height=250&width=400",
-    slug: "conference-website",
+    image: "/icisn.png",
+    slug: "https://www.icisn.com/",
     tags: ["Web Development", "Digital Marketing"],
   },
 ]
