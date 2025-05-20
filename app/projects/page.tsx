@@ -181,10 +181,10 @@ const projects = [
     tags: ["Web Development", "UI/UX"],
   },
   {
-    title: "Warahi Joshi Sanstha",
+    title: "Varahi Jyotish Sansthan",
     description: "Comprehensive digital marketing strategy and website for a non-profit organization.",
-    image: "/placeholder.svg?height=250&width=400",
-    slug: "warahi-joshi-sanstha",
+    image: "/san.jpg",
+    slug: "https://www.facebook.com/VarahiJyotishSansthan/",
     tags: ["Digital Marketing", "Web Development"],
   },
   {
