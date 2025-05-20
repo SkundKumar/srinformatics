@@ -41,12 +41,12 @@ export default function AboutPage() {
       {/* Our Story */}
       <section className="py-24 section-container bg-white">
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <ScrollReveal variant="slide-right">
-              <h2 className="text-3xl font-bold mb-6 text-gray-900">
+              <h2 className="text-4xl flex justify-center md:text-5xl font-bold mb-6 text-gray-900">
                 <TextReveal text="Our Story" type="chars" />
               </h2>
-              <div className="space-y-4 text-gray-600">
+              <div className="space-y-4 text-justify text-gray-600">
                 <p>
                   SR Informatics began with a vision to help businesses navigate the complex digital landscape. What
                   started as a small team of digital enthusiasts has grown into a full-service digital agency serving
@@ -64,18 +64,6 @@ export default function AboutPage() {
                 </p>
               </div>
             </ScrollReveal>
-            <Parallax speed={0.1} direction="right" offset={10}>
-              <ScrollReveal variant="slide-left">
-                <div className="relative h-[400px] rounded-xl overflow-hidden border border-gray-200 shadow-sm">
-                  <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="SR Informatics team"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </ScrollReveal>
-            </Parallax>
           </div>
         </div>
       </section>
@@ -141,7 +129,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Developers Section */}
+      {/* Developers Section - Temporarily Disabled
       <section className="py-24 section-container alt bg-blue-50">
         <div className="container px-4 md:px-6 relative z-10">
           <div className="text-center mb-16">
@@ -187,7 +175,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Interns Section */}
+      {/* Interns Section - Temporarily Disabled
       <section className="py-24 section-container bg-white">
         <div className="container px-4 md:px-6 relative z-10">
           <div className="text-center mb-16">
@@ -232,6 +220,7 @@ export default function AboutPage() {
           </ScrollReveal>
         </div>
       </section>
+      */}
 
       {/* CTA Section */}
       <section className="py-24 bg-blue-50">

@@ -135,7 +135,7 @@ const socialLinks = [
   },
   {
     label: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/in/sr-informatics-040589361/",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

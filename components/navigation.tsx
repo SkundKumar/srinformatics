@@ -60,10 +60,13 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl" onClick={(e) => handleNavClick(e, "/")}>
             <img 
-              src="/WhatsApp Image 2025-05-15 at 14.19.14_631e2f8e.jpg" 
+              src="/logo.png" 
               alt="SR Informatics Logo" 
               className="h-12 w-12 rounded"
             />
+            <div className="">
+            SR
+            </div>
             Informatics
           </Link>
 
